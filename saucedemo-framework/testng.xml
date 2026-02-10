@@ -1,0 +1,15 @@
+<suite name="SauceDemo Automation Suite" preserve-order="true">
+
+   <listeners>
+    <listener class-name="listeners.TestListeners"/>
+      <listener class-name="listeners.ExtentListener"/>
+</listeners>
+    <test name="End-to-End Flow">
+        <classes>
+        <class name="tests.LoginTest"/>
+        <class name="tests.ProductTest"/>
+  		 <class name="tests.CheckoutTest"/> 
+        </classes>
+    </test>
+
+</suite>
