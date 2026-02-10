@@ -25,14 +25,6 @@ Tech Stack
 - Version Control: Git & GitHub
 - IDE: Eclipse  
 
-Project Structure
-saucedemo-selenium-framework
-│── src/main/java        → Framework core (drivers, utilities, base classes)
-│── src/test/java        → Test cases & test execution logic
-│── pom.xml              → Maven configuration
-│── testng.xml           → TestNG execution suite
-│── README.md            → Project documentation
-
 Test Coverage
 
 - Login functionality
